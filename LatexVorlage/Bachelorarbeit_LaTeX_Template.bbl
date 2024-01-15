@@ -1,5 +1,13 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{DVB{\etalchar{+}}15}
+\begin{thebibliography}{AMC{\etalchar{+}}13}
+
+\bibitem[AMC{\etalchar{+}}13]{amorim2013augmented}
+Joni~A Amorim, Carlos Matos, Ana~RM Cuperschmid, Per~M Gustavsson, and Cesar~T
+  Pozzer.
+\newblock Augmented reality and mixed reality technologies: Enhancing training
+  and mission preparation with simulations.
+\newblock In {\em NATO Modelling and Simulation Group (MSG) Annual Conference
+  2013 (MSG-111), 2013}, 2013.
 
 \bibitem[DVB{\etalchar{+}}15]{Dermeval2015}
 DiegoTEST Dermeval, J{\'{e}}ssyka Vilela, Ig~Ibert Bittencourt, Jaelson Castro,
@@ -8,17 +16,67 @@ DiegoTEST Dermeval, J{\'{e}}ssyka Vilela, Ig~Ibert Bittencourt, Jaelson Castro,
   Review of the Literature}.
 \newblock {\em Requirements Engineering}, 21(4):405--437, November 2015.
 
+\bibitem[GCL23]{guthridge2023evaluating}
+Ryan Guthridge and Virginia Clinton-Lisell.
+\newblock Evaluating the efficacy of virtual reality (vr) training devices for
+  pilot training.
+\newblock {\em Journal of Aviation Technology and Engineering}, 12(2):1, 2023.
+
 \bibitem[GSP20]{garcia2020training}
 Angelica~D Garcia, Jonathan Schlueter, and Eddie Paddock.
 \newblock Training astronauts using hardware-in-the-loop simulations and
   virtual reality.
 \newblock page 0167, 2020.
 
+\bibitem[Hel23]{heltne2023cost}
+Marius Heltne.
+\newblock Cost-benefit analysis of the transition from traditional on-site
+  training to interactive vr-training.
+\newblock Master's thesis, uis, 2023.
+
+\bibitem[ISEH{\etalchar{+}}17]{ihemedu2017virtual}
+Quinate~Chioma Ihemedu-Steinke, Rainer Erbach, Prashanth Halady, Gerrit
+  Meixner, and Michael Weber.
+\newblock Virtual reality driving simulator based on head-mounted displays.
+\newblock {\em Automotive User Interfaces: Creating Interactive Experiences in
+  the Car}, pages 401--428, 2017.
+
+\bibitem[KHKO24]{kleygrewe2024virtual}
+Lisanne Kleygrewe, RI~Vana Hutter, Matthijs Koedijk, and Ra{\^o}ul~RD Oudejans.
+\newblock Virtual reality training for police officers: a comparison of
+  training responses in vr and real-life training.
+\newblock {\em Police Practice and Research}, 25(1):18--37, 2024.
+
+\bibitem[KNTF20]{kader2020building}
+Shaphyna~Nacqiar Kader, Wei~Bo Ng, Stella Wei~Ling Tan, and Fun~Man Fung.
+\newblock Building an interactive immersive virtual reality crime scene for
+  future chemists to learn forensic science chemistry.
+\newblock {\em Journal of Chemical Education}, 97(9):2651--2656, 2020.
+
+\bibitem[Koh23]{kohl2023empathy}
+Jacqueline Kohl.
+\newblock Empathy in police officers undergoing de-escalation simulation
+  training: A comparison between virtual reality and live action modalities.
+\newblock 2023.
+
+\bibitem[LLH{\etalchar{+}}16]{langley2016establishing}
+A~Langley, G~Lawson, S~Hermawati, M~D'cruz, J~Apold, F~Arlt, and K~Mura.
+\newblock Establishing the usability of a virtual training system for assembly
+  operations within the automotive industry.
+\newblock {\em Human Factors and Ergonomics in Manufacturing and Service
+  Industries}, 26(6):667--679, 2016.
+
 \bibitem[MG10]{moore201021st}
 Sandra~K Moore and Matthew~A Gast.
 \newblock 21st century extravehicular activities: Synergizing past and present
   training methods for future spacewalking success.
 \newblock {\em Acta Astronautica}, 67(7-8):739--752, 2010.
+
+\bibitem[MG20]{mayne2020virtual}
+Richard Mayne and Helen Green.
+\newblock Virtual reality for teaching and learning in crime scene
+  investigation.
+\newblock {\em Science \& Justice}, 60(5):466--472, 2020.
 
 \bibitem[Mir13]{miralles2013onboard}
 Evelyn Miralles.
