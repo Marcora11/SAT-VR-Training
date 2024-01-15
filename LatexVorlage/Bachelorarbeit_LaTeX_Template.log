@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.25)  15 JAN 2024 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.25)  15 JAN 2024 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Mitarbeiter/Desktop/RH/SAT/LatexVorlage/Bachelorarbeit_LaTeX_Template
-(c:/Users/Mitarbeiter/Desktop/RH/SAT/LatexVorlage/Bachelorarbeit_LaTeX_Template.tex
+**c:/Users/Mitarbeiter/development/SAT-VR-Training/LatexVorlage/Bachelorarbeit_LaTeX_Template
+(c:/Users/Mitarbeiter/development/SAT-VR-Training/LatexVorlage/Bachelorarbeit_LaTeX_Template.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2022/10/12 v3.38 KOMA-Script document class (book)
@@ -1529,30 +1529,30 @@ Package pdftex.def Info: images/INFLogo.png  used on input line 5.
 <images/FHRTFooter.png, id=9, 1738.24406pt x 260.47313pt>
 File: images/FHRTFooter.png Graphic file (type png)
 <use images/FHRTFooter.png>
-Package pdftex.def Info: images/FHRTFooter.png  used on input line 45.
+Package pdftex.def Info: images/FHRTFooter.png  used on input line 49.
 (pdftex.def)             Requested size: 467.13074pt x 69.9988pt.
 
 Overfull \hbox (390.31142pt too wide) has occurred while \output is active
 [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 45.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 49.
 (c:/texlive/2022/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 45.
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 45.
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 45.
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 49.
  (c:/texlive/2022/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 ) [1
@@ -1605,6 +1605,15 @@ LaTeX Warning: Reference `sec:basics-contents' on page 5 undefined on input line
 
 LaTeX Warning: Reference `sec:bibliography' on page 5 undefined on input line 6.
 
+
+LaTeX Warning: Reference `sec:glossary' on page 5 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Dermeval2015' on page 5 undefined on input line 8.
+
+
+LaTeX Warning: Citation `pohl2016requirements' on page 5 undefined on input line 8.
+
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 13.
 (c:/texlive/2022/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
 File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
@@ -1656,30 +1665,275 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--47
 
 ]
 chapter 2.
-(./kapitel/02_raumfahrt.tex) (./kapitel/raumfahrt/safer.tex)
-Overfull \hbox (6.48363pt too wide) in paragraph at lines 1--49
-\T1/jkpss/m/n/12 wird. [[]] SA-FER be-steht aus ei-nem Trieb-werks-ruck-sack mit gas-f�r-mi-gem Stick-
- []
+(./kapitel/02_raumfahrt.tex) (./kapitel/raumfahrt/safer.tex
 
-[9] (./kapitel/raumfahrt/charlotte.tex)
-Overfull \hbox (21.32413pt too wide) in paragraph at lines 1--51
-\T1/jkpss/m/n/12 on des Um-gangs mit schwe-ren Bau-tei-len in der Schwe-re-lo-sig-keit be-nutzt wird.[[]]
- []
+LaTeX Warning: Citation `moore201021st' on page 9 undefined on input line 1.
 
-(./kapitel/raumfahrt/eva.tex) [10] [11] [12
+
+LaTeX Warning: Citation `miralles2013onboard' on page 9 undefined on input line 2.
+
+
+LaTeX Warning: Citation `moore201021st' on page 9 undefined on input line 3.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 9 undefined on input line 4.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 9 undefined on input line 5.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 9 undefined on input line 7.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 9 undefined on input line 9.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 9 undefined on input line 10.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 9 undefined on input line 12.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 9 undefined on input line 14.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 9 undefined on input line 15.
+
+
+LaTeX Warning: Citation `moore201021st' on page 9 undefined on input line 16.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 9 undefined on input line 18.
+
+
+LaTeX Warning: Citation `moore201021st' on page 9 undefined on input line 19.
+
+) [9] (./kapitel/raumfahrt/charlotte.tex
+
+LaTeX Warning: Citation `moore201021st' on page 10 undefined on input line 1.
+
+
+LaTeX Warning: Citation `miralles2013onboard' on page 10 undefined on input line 2.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 10 undefined on input line 7.
+
+
+LaTeX Warning: Citation `miralles2013onboard' on page 10 undefined on input line 8.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 10 undefined on input line 9.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 10 undefined on input line 13.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 10 undefined on input line 16.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 10 undefined on input line 17.
+
+) (./kapitel/raumfahrt/eva.tex
+
+LaTeX Warning: Citation `moore201021st' on page 10 undefined on input line 1.
+
+
+LaTeX Warning: Citation `osterlund2012virtual' on page 10 undefined on input line 4.
+
+
+LaTeX Warning: Citation `osterlund2012virtual' on page 10 undefined on input line 7.
+
+
+LaTeX Warning: Citation `moore201021st' on page 10 undefined on input line 10.
+
+
+LaTeX Warning: Citation `miralles2013onboard' on page 10 undefined on input line 11.
+
+
+LaTeX Warning: Citation `osterlund2012virtual' on page 10 undefined on input line 12.
+
+
+LaTeX Warning: Citation `miralles2013onboard' on page 10 undefined on input line 13.
+
+
+LaTeX Warning: Citation `osterlund2012virtual' on page 10 undefined on input line 17.
+
+
+LaTeX Warning: Citation `miralles2013onboard' on page 10 undefined on input line 19.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 10 undefined on input line 20.
+
+
+LaTeX Warning: Citation `miralles2013onboard' on page 10 undefined on input line 22.
+
+
+LaTeX Warning: Citation `garcia2020training' on page 10 undefined on input line 24.
+
+) [10] [11] [12
 
 
 ]
 chapter 3.
+(./kapitel/03_fahrzeuge.tex) (./kapitel/fahrzeuge/piloten.tex
+<images/Abbildung 1.png, id=89, 258.2448pt x 258.2448pt>
+File: images/Abbildung 1.png Graphic file (type png)
+<use images/Abbildung 1.png>
+Package pdftex.def Info: images/Abbildung 1.png  used on input line 5.
+(pdftex.def)             Requested size: 426.7914pt x 426.83026pt.
+
+
+LaTeX Warning: Citation `guthridge2023evaluating' on page 13 undefined on input line 11.
+
+) [13] [14 <./images/Abbildung 1.png>] (./kapitel/fahrzeuge/bodenfahrzeuge.tex
+<images/Abbildung 2.jpg, id=108, 213.1965pt x 199.3995pt>
+File: images/Abbildung 2.jpg Graphic file (type jpg)
+<use images/Abbildung 2.jpg>
+Package pdftex.def Info: images/Abbildung 2.jpg  used on input line 6.
+(pdftex.def)             Requested size: 426.7914pt x 399.18748pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+  [][][][]$\T1/jkptt/m/n/10 https : / / eveprocom . de / eventmodule / virtual -[] reality / full -[] motion -[] vr -[] racing -[] seat -[]
+ []
+
+
+LaTeX Warning: Citation `ihemedu2017virtual' on page 15 undefined on input line 12.
+
+<images/Abbildung 3.png, id=111, 408.77719pt x 277.035pt>
+File: images/Abbildung 3.png Graphic file (type png)
+<use images/Abbildung 3.png>
+Package pdftex.def Info: images/Abbildung 3.png  used on input line 16.
+(pdftex.def)             Requested size: 426.7914pt x 289.2594pt.
+
+LaTeX Warning: Citation `ihemedu2017virtual' on page 15 undefined on input line 18.
+
+
+LaTeX Warning: Citation `ihemedu2017virtual' on page 15 undefined on input line 18.
+
+) (./kapitel/fahrzeuge/automobilmanufaktur.tex
+<images/Abbildung 4.png, id=112, 377.15906pt x 237.88875pt>
+File: images/Abbildung 4.png Graphic file (type png)
+<use images/Abbildung 4.png>
+Package pdftex.def Info: images/Abbildung 4.png  used on input line 6.
+(pdftex.def)             Requested size: 426.7914pt x 269.19228pt.
+
+
+LaTeX Warning: Citation `langley2016establishing' on page 15 undefined on input line 8.
+
+
+LaTeX Warning: Citation `langley2016establishing' on page 15 undefined on input line 8.
+
+
+LaTeX Warning: Citation `langley2016establishing' on page 15 undefined on input line 11.
+
+
+LaTeX Warning: Citation `langley2016establishing' on page 15 undefined on input line 11.
+
+<images/Abbildung 5.png, id=113, 507.39563pt x 315.42844pt>
+File: images/Abbildung 5.png Graphic file (type png)
+<use images/Abbildung 5.png>
+Package pdftex.def Info: images/Abbildung 5.png  used on input line 15.
+(pdftex.def)             Requested size: 426.7914pt x 265.32867pt.
+
+LaTeX Warning: Citation `langley2016establishing' on page 15 undefined on input line 17.
+
+
+LaTeX Warning: Citation `langley2016establishing' on page 15 undefined on input line 17.
+
+
+LaTeX Warning: Citation `langley2016establishing' on page 15 undefined on input line 20.
+
+)
+Overfull \hbox (13.49953pt too wide) in paragraph at lines 1--61
+\T1/jkpss/m/n/12 Vr beim Au-to ma-nu-fak-tur Bei der Au-to Ma-nu-fak-tur wer-den so-ge-nann-te VTS (Virtual-
+ []
+
+[15] [16 <./images/Abbildung 2.jpg>] [17 <./images/Abbildung 3.png>] [18 <./images/Abbildung 4.png> <./images/Abbildung 5.png>]
+chapter 4.
+(./kapitel/04_polizei.tex)
+Overfull \hbox (23.29214pt too wide) in paragraph at lines 1--63
+\T1/jkpss/m/n/12 Im Ab-schnitt 4.2 wird der Schwer-punkt auf der fo-ren-si-schen und Tatort-Untersuchung
+ []
+
+(./kapitel/polizei/SuA.tex)
+Underfull \vbox (badness 2608) has occurred while \output is active []
+
+ [19
+
+
+] (./kapitel/polizei/FuT.tex
+LaTeX Font Info:    Trying to load font information for TS1+jkpss on input line 3.
+ (c:/texlive/2022/texmf-dist/tex/latex/kpfonts/ts1jkpss.fd
+File: ts1jkpss.fd 2007/07/16 Fontinst v1.928 font definitions for TS1/jkpss.
+)) [20] (./kapitel/polizei/PuK.tex) (./kapitel/polizei/Fazit.tex) [21] [22]
+chapter 5.
+(./kapitel/05_medizin.tex) (./kapitel/medizin/operationen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+[23
+
+
+]) (./kapitel/medizin/ÄuP.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--20
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
+
+ []
+
+) (./kapitel/medizin/Reha.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+
+ []
+
+) [25] [26
+
+
+]
+chapter 6.
 (./kapitel/03_bildertabellenlistings.tex
-<images/example.jpg, id=166, 903.375pt x 507.8975pt>
+<images/example.jpg, id=186, 903.375pt x 507.8975pt>
 File: images/example.jpg Graphic file (type jpg)
 <use images/example.jpg>
 Package pdftex.def Info: images/example.jpg  used on input line 6.
 (pdftex.def)             Requested size: 426.7914pt x 239.95184pt.
 
 Overfull \hbox (3.68512pt too wide) in paragraph at lines 11--16
-[]\T1/jkpss/m/n/12 In der Ab-bil-dung [][]3.1[][] ist ein Bei-spiel-bild zu se-hen. Bil-der wer-den mit [][][][][][][]
+[]\T1/jkpss/m/n/12 In der Ab-bil-dung [][]6.1[][] ist ein Bei-spiel-bild zu se-hen. Bil-der wer-den mit [][][][][][][]
  []
 
 
@@ -1688,48 +1942,48 @@ Overfull \hbox (1.68965pt too wide) in paragraph at lines 11--16
  []
 
 
-LaTeX Warning: Hyper reference `fig:big-example' on page 13 undefined on input line 26.
+LaTeX Warning: Hyper reference `fig:big-example' on page 27 undefined on input line 26.
 
 File: images/example.jpg Graphic file (type jpg)
 <use images/example.jpg>
 Package pdftex.def Info: images/example.jpg  used on input line 26.
 (pdftex.def)             Requested size: 196.3269pt x 110.37381pt.
 
-LaTeX Warning: Hyper reference `fig:big-example' on page 13 undefined on input line 32.
+LaTeX Warning: Hyper reference `fig:big-example' on page 27 undefined on input line 32.
 
 File: images/example.jpg Graphic file (type jpg)
 <use images/example.jpg>
 Package pdftex.def Info: images/example.jpg  used on input line 32.
 (pdftex.def)             Requested size: 196.3269pt x 110.37381pt.
 
-LaTeX Warning: Hyper reference `fig:big-example' on page 13 undefined on input line 38.
+LaTeX Warning: Hyper reference `fig:big-example' on page 27 undefined on input line 38.
 
 File: images/example.jpg Graphic file (type jpg)
 <use images/example.jpg>
 Package pdftex.def Info: images/example.jpg  used on input line 38.
 (pdftex.def)             Requested size: 196.3269pt x 110.37381pt.
 
-LaTeX Warning: Hyper reference `fig:big-example' on page 13 undefined on input line 44.
+LaTeX Warning: Hyper reference `fig:big-example' on page 27 undefined on input line 44.
 
 File: images/example.jpg Graphic file (type jpg)
 <use images/example.jpg>
 Package pdftex.def Info: images/example.jpg  used on input line 44.
 (pdftex.def)             Requested size: 196.3269pt x 110.37381pt.
-[13 <./images/example.jpg>] (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+[27 <./images/example.jpg>] (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [14]
+) [28]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 98.
 )
-Overfull \hbox (6.33043pt too wide) in paragraph at lines 114--58
+Overfull \hbox (6.33043pt too wide) in paragraph at lines 114--87
 \T1/jkpss/m/n/12 ABAP2,4, ACSL, Ada4, Al-gol4, Ant, As-sem-b-ler2,4, Awk4, bash, Ba-sic2,4, C#5, C++4,
  []
 
-[15] [16]
-chapter 4.
-(./kapitel/05_fazit.tex) [17
+[29] [30]
+chapter 7.
+(./kapitel/06_fazit.tex) [31
 
 
-] [18
+] [32
 
 
 ]
@@ -1740,57 +1994,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--4
  []
 
 )
-Using TeX to sort glossary entries---this may take a while
-[19
+
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={acronym}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 99.
 
 
-] [20
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 101.
+
+[33
 
 
-]
-chapter without number
-Using TeX to sort glossary entries---this may take a while
-[21
+] (./Bachelorarbeit_LaTeX_Template.bbl [34
 
 
-] [22
-
-
-]
-chapter without number
-[23
-
-
-] (./Bachelorarbeit_LaTeX_Template.bbl [24
-
-
-]) [25] [26
+]) [35] [36
 
 
 ]
 chapter without number
 
-pdfTeX warning (ext4): destination with the same identifier (name{section.4.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{section.7.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85 \section{Zusätzliche Informationen}
-                                         \label{att:bigpicture} [27] 
+l.114 \section{Zusätzliche Informationen}
+                                          \label{att:bigpicture} [37] 
 AED: lastpage setting LastPage
 (./Bachelorarbeit_LaTeX_Template.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Bachelorarbeit_LaTeX_Template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37351 strings out of 475071
- 700023 string characters out of 5782907
- 1424132 words of memory out of 5000000
- 57911 multiletter control sequences out of 15000+600000
- 565628 words of font info for 135 fonts, out of 8000000 for 9000
+ 37560 strings out of 475071
+ 704173 string characters out of 5782907
+ 1425266 words of memory out of 5000000
+ 58042 multiletter control sequences out of 15000+600000
+ 566360 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,14n,106p,10669b,1387s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,14n,106p,10682b,1387s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{glo:rz} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:acronym} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
 
@@ -1804,10 +2064,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpssbn8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpssmn8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpssmn8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpssmne.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on Bachelorarbeit_LaTeX_Template.pdf (27 pages, 225418 bytes).
+Output written on Bachelorarbeit_LaTeX_Template.pdf (37 pages, 947728 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
- 325 compressed objects within 4 object streams
- 81 named destinations out of 1000 (max. 500000)
- 188 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 429 PDF objects out of 1000 (max. 8388607)
+ 361 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
