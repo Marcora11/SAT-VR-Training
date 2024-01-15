@@ -1,5 +1,5 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{AMC{\etalchar{+}}13}
+\begin{thebibliography}{MWKR98}
 
 \bibitem[AMC{\etalchar{+}}13]{amorim2013augmented}
 Joni~A Amorim, Carlos Matos, Ana~RM Cuperschmid, Per~M Gustavsson, and Cesar~T
@@ -81,6 +81,12 @@ Richard Mayne and Helen Green.
 Evelyn Miralles.
 \newblock An onboard iss virtual reality trainer.
 \newblock 2013.
+
+\bibitem[MWKR98]{mehlitz1998virtual}
+Marcus Mehlitz, Godehard Weniger, Thomas Kleinoeder, and O~Rienhoff.
+\newblock Virtual reality in der medizinischen anwendung-perspektiven f{\"u}r
+  die krankenversorgung.
+\newblock {\em das krankenhaus}, 90:463--468, 1998.
 
 \bibitem[OL12]{osterlund2012virtual}
 Jeffrey Osterlund and Brad Lawrence.
