@@ -9,13 +9,6 @@ Joni~A Amorim, Carlos Matos, Ana~RM Cuperschmid, Per~M Gustavsson, and Cesar~T
 \newblock In {\em NATO Modelling and Simulation Group (MSG) Annual Conference
   2013 (MSG-111), 2013}, 2013.
 
-\bibitem[DVB{\etalchar{+}}15]{Dermeval2015}
-DiegoTEST Dermeval, J{\'{e}}ssyka Vilela, Ig~Ibert Bittencourt, Jaelson Castro,
-  Seiji Isotani, Patrick Brito, and Alan Silva.
-\newblock {Applications of Ontologies in Requirements Engineering: A Systematic
-  Review of the Literature}.
-\newblock {\em Requirements Engineering}, 21(4):405--437, November 2015.
-
 \bibitem[GCL23]{guthridge2023evaluating}
 Ryan Guthridge and Virginia Clinton-Lisell.
 \newblock Evaluating the efficacy of virtual reality (vr) training devices for
@@ -87,12 +80,5 @@ Evelyn Miralles.
 Jeffrey Osterlund and Brad Lawrence.
 \newblock Virtual reality: Avatars in human spaceflight training.
 \newblock {\em Acta Astronautica}, 71:139--150, 2012.
-
-\bibitem[Poh16]{pohl2016requirements}
-Klaus Pohl.
-\newblock {\em Requirements engineering fundamentals: a study guide for the
-  certified professional for requirements engineering exam-foundation
-  level-IREB compliant}.
-\newblock Rocky Nook, Inc., 2016.
 
 \end{thebibliography}
