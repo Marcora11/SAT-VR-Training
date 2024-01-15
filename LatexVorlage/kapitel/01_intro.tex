@@ -1,0 +1,48 @@
+Das Tutorial enthält verschiedene Sektionen zur Beschreibung grundlegender Funktionen in \LaTeX.\footnote{Vielen Dank an Ihren Kommilitonen Oliver Schneider, der diese Vorlage erstellt hat!}
+Zuerst werden die \nameref{sec:basics} in Kapitel~\ref{sec:basics} beschrieben.
+Dort sind die \nameref{sec:basics-text}, die \nameref{sec:basics-lists}
+und das \nameref{sec:basics-contents} beschrieben.
+Darauf folgend ist die Verwendung und Erstellung von \nameref{sec:BilderTabellenListings} in Kapitel~\ref{sec:BilderTabellenListings} erklärt.
+Verwaltung und richtiges Zitieren in \LaTeX~ist im Kapitel~\ref{sec:bibliography} zu finden.
+Die Verwendung von einem Glossar und Akronym-Verzeichnis ist im Kapitel~\ref{sec:glossary} enthalten.
+Wichtige Quellen dieser Arbeit sind~\cite{Dermeval2015},\cite{pohl2016requirements}.
+
+\LaTeX~kann auf nahezu allen Plattformen (Mac,Linux, Windows und Online) installiert werden.
+Hierfür kann der Link in der Fußzeile aufgerufen werden.
+
+Für die effiziente Bearbeitung Ihrer Arbeit empfehlen wir Texmaker\footnote{\url{https://www.xm1math.net/texmaker/}}.
+Dafür brauchen Sie eine unterliegende LaTeX Installation, z.B.~die Tex-Live Installation\footnote{\url{http://tug.org/texlive/}}.
+Meist reicht die Standardinstallation.
+Wenn Sie die Tex-Dateien manuell kompilieren wollen, müssen Sie in einer Kommandozeile folgendes tun:
+\begin{enumerate}
+    \item Terminal öffnen und mit \lstinline|cd| in den Hauptordner des Projekts navigieren
+    \item \lstinline|pdflatex tutorial.tex| eingeben und mit Eingabetaste bestätigen.
+    \item \lstinline|makeglossaries tutorial| erstellt die Akronyme und das Glossar.
+    \item Die Befehle \lstinline|bibtex tutorial| und  \lstinline|biber tutorial| Befehl erstellen das Literaturverzeichnis.
+    \item Erneut \lstinline|pdflatex tutorial.tex| ausführen, um Akronyme, Glossar und das Literaturverzeichnis einzufügen.
+\end{enumerate}
+
+
+In \LaTeX kann man ein Wort mit \lstinline|\textbf{wort}| \textbf{fett} und mit
+\lstinline|\textit{wort}| \textit{kursiv} schreiben.\\
+\par
+Ein Sprung in eine neue Zeile in einem \LaTeX Dokument wird nicht mit
+der Eingabetaste, sondern mit den Zeichen \lstinline|\\| erreicht.\\
+\\
+\textbf{Beispiel:}\\
+Nach diesem Satz wird eine neue Zeile begonnen.\\
+Das ist die neue Zeile.\\
+\par
+Eine neuer Absatz ist mit dem Befehl \lstinline|\par| möglich.\\
+\\
+\textbf{Beispiel:}\\
+Nach diesem Satz wird ein neuer Absatz entstehen.\\
+\par
+Dieser Satz steht in einem neuen Absatz.\\
+\par
+Nach dem Befehl \lstinline|\newpage| wird auf der Text auf der folgenden Seite fortgesetzt.\\
+\\
+\textbf{Beispiel:}\\
+Der nächste Satz wird auf einer neuen Seite stehen.\\
+\newpage
+Dieser Satz steht auf einer neuen Seite.

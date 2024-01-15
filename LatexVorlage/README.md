@@ -1,0 +1,12 @@
+# Enthaltene Dateien und Ordner (alphabetisch)
+- `attachments` enthält das Glossar, die Akronyme und die Anhänge des Dokuments.
+- `header.tex` ist die LaTeX header-Datei und enthält alle verwendeten Pakete. Diese wird in die `latex_tutorial.tex` oben eingebunden.
+- `header_print.tex` ist eine header-Datei für den Druck. Hier werden die Verlinkungen und Farben weitestgehend aus dem Dokument entfernt. Diese kann für den Druck ebenfalls in die `latex_tutorial.tex` oben eingebunden werden.
+- `images` enthält alle Bilder des Dokuments
+- `latex-compile.py` ist ein Python Skript, um das Dokument schneller zu kompilieren und automatisch Internetquellen zur `references.bib`-Datei hinzuzufügen.
+- `latex_tutorial.tex` ist die Haupt-Datei von LaTeX. Diese enthält die Struktur des Dokuments.
+- `latex_tutorial.pdf` Beispiel des Dokuments.
+- `latex_tutorial_with_print_header.pdf` Beispiel des Dokuments für den Druck.
+- `lib` enthält externe LaTeX Bibliotheken, falls notwendig.
+- `partials` enthält alle Kapitel des Dokuments
+- `references.bib` enthält die Quellen für das Literaturverzeichnis und für die Fußnoten.

@@ -1,0 +1,144 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Deutsches Sprachpaket für Babel auswählen
+\usepackage[german] {babel}
+
+% Font Änderungen
+\usepackage{lmodern}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+
+% Integration von PDF Seiten. Wird zum Einfügen der eidesstattlichen Erklärung der Thesis verwendet.
+\usepackage{pdfpages}
+
+% Lipsum Fließtext generieren mit \lipsum 
+\usepackage{lipsum}
+\usepackage{cprotect}
+\usepackage{csquotes}
+
+% Kopf- und Fußzeilen der Seiten anpassen 
+\usepackage{fancyhdr}
+
+% Ersetzt \hline in Tabellen mit \toprule, \midrule und \bottomrule
+\usepackage{booktabs}
+
+% Unter anderem für mathematische Formeln
+\usepackage{amsmath}
+
+% Enthalten mathematische Symbole
+\usepackage{amsfonts}
+\usepackage{kpfonts}
+\usepackage{amssymb}
+
+% Generiert graphische Elemente, wie beispielsweise Diagramme
+\usepackage{tikz}
+
+% Bilder in Latex einbinden mit \includegraphics
+\usepackage{graphicx}
+
+% Den Pfad für alle Bilder relativ zur header.tex-Datei setzen.
+\graphicspath{ {images/} }
+
+% Tabellen automatisch an die Textbreite anpassen
+\usepackage{tabularx}
+
+% Mehrere Reihen in einer Tabelle zusammenschließen
+\usepackage{multirow}
+
+% Mehr Farben für LaTeX
+\usepackage{xcolor}
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{dkblue}{rgb}{0,0,0.2}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{darkerred}{rgb}{0.2,0,0}
+
+% Paket, um Links im Dokument zu erzeugen
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+
+% Farben und Art der Links anpassen
+\hypersetup{
+    colorlinks = true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=black,
+    citecolor=black
+}
+
+% Enumerationsliste mit römischen Zeichen
+\renewcommand{\theenumi}{\roman{enumi}}
+\usepackage{footnote}
+\makesavenoteenv{figure}
+\usepackage{epigraph}
+\usepackage{listings}
+
+% Umlaute in Listings zulassen
+\lstset{literate=% Allow for German characters in lstlistings.
+{Ö}{{\"O}}1
+{Ä}{{\"A}}1
+{Ü}{{\"U}}1
+{ß}{{\ss}}2
+{ü}{{\"u}}1
+{ä}{{\"a}}1
+{ö}{{\"o}}1
+}
+
+% Farben in Lstlistings verwenden
+\lstset{frame=tb,
+    language=Java,
+    aboveskip=3mm,
+    belowskip=3mm,
+    showstringspaces=false,
+    columns=flexible,
+    basicstyle={\small\ttfamily},
+    numbers=none,
+    numberstyle=\tiny\color{black},
+    keywordstyle=\color{black},
+    commentstyle=\color{black},
+    stringstyle=\color{black},
+    breaklines=true,
+    breakatwhitespace=true,
+    tabsize=3
+}
+
+% Paket für Akronyme und Glossar
+\usepackage[acronym,nonumberlist,order=letter,nopostdot,toc,numberedsection=autolabel,section=chapter]{glossaries}
+%,style=super
+\renewcommand*{\glspostdescription}{}
+\setacronymstyle{long-short}
+
+% Ändern der Farbe für Verlinkungen auf die Akronyme und in das Glossar auf ein dunkles Rot.
+\renewcommand*{\glstextformat}[1]{\textcolor{black}{#1}}
+\makenoidxglossaries{}
+
+\usepackage[doublespacing]{setspace}
+\usepackage{background}
+\usepackage{lastpage}
+
+% Mit dem Command \subautor kann jedem einzelnen Kapitel ein einzelner Autor hinzugefügt werden
+\newcommand{\subautor}[1]{\begin{flushright}
+    {\small\textit{#1}}    
+\end{flushright}}
+
+% Notwendig, um die Verlinkung in das Inhaltsverzeichnis über die Fußzeile zu erstellen.
+\backgroundsetup{contents={}}
+
+% Normaler Stil für Seiten innerhalb der Arbeit
+\pagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}% removes header line
+\lhead{\leftmark}
+\rhead{}
+\cfoot{\thepage}
+\lfoot{\hyperlink{contents}{\small{Inhaltsverzeichnis}}}% links the TOC at the center of the page footer
+
+% Am Ende der Arbeit werden die Kapitelreferenzen in der Kopfzeile entfernt.
+\renewcommand{\headrulewidth}{0pt}% removes header line
+\lhead{}
+\rhead{}
+\cfoot{\thepage}
+\lfoot{}
+
+% Am Anfang des Dokuments werden alle Kopf- und Fußzeilen entfernt.
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}}

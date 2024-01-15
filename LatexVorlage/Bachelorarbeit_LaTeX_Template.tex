@@ -1,0 +1,88 @@
+% Dokumentenklasse definieren.
+\documentclass[
+    12pt,
+    a4paper,
+    doubleside,
+    BCOR=10mm,
+    parskip=half,
+    ngerman
+]{scrbook}
+
+% Die Header-Datei enthält alle verwendeten Pakete, sowie 
+% Konfigurationen für Farben der Links und die Kopf- und 
+% Fußzeilen. 
+% Für den Druck kann "header.tex" in "header_print.tex" geändert werden, damit alle Verlinkungen und Markups schwarz bleiben.
+\input{header_print.tex}
+
+% Das Glossar wird am Anfang erstellt. Wenn kein Glossar und keine Akronyme verwendet werden, die folgenden drei Zeile auskommentieren.
+\loadglsentries{appendix/glossar.tex}
+\loadglsentries{appendix/acronyms.tex}
+
+\begin{document}
+% Keinen Styline (Seitennummer, usw.) auf der Titelseite
+\pagestyle{empty}
+% Den Abstand zwischen den Zeilen leicht vergrößern, um die Lesbarkeit zu erhöhen
+\setstretch{1.0}
+% Einfügen der Titelseite in das Projekt. Der angegebene Pfad der eingefügten
+% .tex-Datei ist relativ zu dieser Datei.
+\input{kapitel/00_title.tex}
+\input{kapitel/00_abstract.tex}
+% Für die PDF Version den Link links unten auf der Seite auf das Inhaltsverzeichnis setzen
+\hypertarget{contents}{}
+% Automatisches Anlegen des Inhaltsverzeichnis
+\tableofcontents
+
+% Neue Seite nach dem Inhaltsverzeichnis einfügen
+\newpage
+% Neuen Stil für jede Seite, der Stil kann in der header.tex Datei geändert werden.
+% Der Stil deklariert die Kopf- und Fußzeilen der folgenden Seite.
+\pagestyle{fancy}
+
+% Erstes Kapitel, die \chapter, \section, \subsection, usw. werden automatisch
+% dem Inhaltsverzeichnis hinzugefügt
+\chapter{Einführung}
+\input{kapitel/01_intro.tex}
+\chapter{VR Training in der Raumfahrt}\label{sec:raumfahrt}
+\input{kapitel/02_raumfahrt.tex}
+\section{Einsatz bei SAFER}\label{sec:raumfahrt-safer}
+\input{kapitel/raumfahrt/safer.tex}
+\section{Einsatz bei Charlotte}\label{sec:raumfahrt-charlotte}
+\input{kapitel/raumfahrt/charlotte.tex}
+\section{Einsatz bei EVAs}\label{sec:raumfahrt-eva}
+\input{kapitel/raumfahrt/eva.tex}
+%\subsection{Unterkapitel}\label{sec:basics-subsection}
+%\input{kapitel/basics/subsection.tex}
+
+\chapter{Bilder, Tabellen und Listings}\label{sec:BilderTabellenListings}
+\input{kapitel/03_bildertabellenlistings.tex}
+
+\chapter{Fazit}\label{sec:summary}
+\input{kapitel/05_fazit.tex}
+
+\backmatter
+
+\chapter{Glossar und Akronyme}\label{sec:glossary}
+\input{kapitel/10_glossary.tex}
+
+% Für die Akronyme, die Literatur und das Glossar wird der Zeilenabstand reduziert.
+\singlespacing{}
+% Hier werden die Akronyme und das Glossar in das Dokument geschrieben
+\printnoidxglossary[type=\acronymtype,title={Abkürzungen\label{akronyme}}]
+% Glossaa
+\printnoidxglossary[title={Glossar}]
+
+% Hier wird das Literaturverzeichnis in das Dokument geschrieben
+% Das Literaturverzeichnis bekommt keine Kapitelnummer im Inhaltsverzeichnis und wird mit einem * versehen
+\newpage
+\addcontentsline{toc}{chapter}{Literatur}
+\bibliographystyle{alpha}
+\bibliography{references}
+
+\newpage
+% Anhang erstellen, da dieser ebenfalls keine Nummerierung bekommt,
+% wird wieder der Asterix (*) nach \chapter verwendet.
+\chapter{Anhang}\label{appendix}
+\section{Zusätzliche Informationen}\label{att:bigpicture}
+Im Anhang platzieren Sie weitere Informationen aus dem Kontext Ihrer Arbeit.
+Wichtige Ergebnisse, die Sie erzielt haben, gehören allerdings nicht hierher.
+\end{document}

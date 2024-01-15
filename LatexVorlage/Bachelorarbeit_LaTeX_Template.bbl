@@ -1,0 +1,40 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{DVB{\etalchar{+}}15}
+
+\bibitem[DVB{\etalchar{+}}15]{Dermeval2015}
+DiegoTEST Dermeval, J{\'{e}}ssyka Vilela, Ig~Ibert Bittencourt, Jaelson Castro,
+  Seiji Isotani, Patrick Brito, and Alan Silva.
+\newblock {Applications of Ontologies in Requirements Engineering: A Systematic
+  Review of the Literature}.
+\newblock {\em Requirements Engineering}, 21(4):405--437, November 2015.
+
+\bibitem[GSP20]{garcia2020training}
+Angelica~D Garcia, Jonathan Schlueter, and Eddie Paddock.
+\newblock Training astronauts using hardware-in-the-loop simulations and
+  virtual reality.
+\newblock page 0167, 2020.
+
+\bibitem[MG10]{moore201021st}
+Sandra~K Moore and Matthew~A Gast.
+\newblock 21st century extravehicular activities: Synergizing past and present
+  training methods for future spacewalking success.
+\newblock {\em Acta Astronautica}, 67(7-8):739--752, 2010.
+
+\bibitem[Mir13]{miralles2013onboard}
+Evelyn Miralles.
+\newblock An onboard iss virtual reality trainer.
+\newblock 2013.
+
+\bibitem[OL12]{osterlund2012virtual}
+Jeffrey Osterlund and Brad Lawrence.
+\newblock Virtual reality: Avatars in human spaceflight training.
+\newblock {\em Acta Astronautica}, 71:139--150, 2012.
+
+\bibitem[Poh16]{pohl2016requirements}
+Klaus Pohl.
+\newblock {\em Requirements engineering fundamentals: a study guide for the
+  certified professional for requirements engineering exam-foundation
+  level-IREB compliant}.
+\newblock Rocky Nook, Inc., 2016.
+
+\end{thebibliography}
