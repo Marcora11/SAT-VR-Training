@@ -1,1 +1,6 @@
-hiahxyc
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1.0\textwidth]{images/Abbildung 1}
+    \caption{\label{fig:Abbildung 1}Beispielbild\protect
+    }
+\end{figure}
