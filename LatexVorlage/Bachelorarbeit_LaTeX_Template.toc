@@ -28,9 +28,7 @@
 \contentsline {section}{\numberline {7.1}Zusammenfassung}{31}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Weitere Arbeiten}{31}{section.7.2}%
 \contentsline {chapter}{\nonumberline Glossar und Akronyme}{33}{chapter*.2}%
-\contentsline {chapter}{\nonumberline Abkürzungen}{35}{chapter*.4}%
-\contentsline {chapter}{\nonumberline Glossar}{37}{chapter*.6}%
-\contentsline {chapter}{Literatur}{38}{chapter*.6}%
-\contentsline {chapter}{\nonumberline Anhang}{41}{chapter*.8}%
-\contentsline {section}{\numberline {1}Zusätzliche Informationen}{41}{section.7.1}%
+\contentsline {chapter}{Literatur}{34}{chapter*.2}%
+\contentsline {chapter}{\nonumberline Anhang}{37}{chapter*.4}%
+\contentsline {section}{\numberline {1}Zusätzliche Informationen}{37}{section.7.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
