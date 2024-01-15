@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.25)  15 JAN 2024 21:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.25)  15 JAN 2024 21:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1691,7 +1691,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--69
 
 (./kapitel/polizei/Fazit.tex) [19] [20]
 chapter 5.
-(./kapitel/05_medizin.tex) (./kapitel/medizin/operationen.tex [21
+(./kapitel/05_medizin.tex) (./kapitel/medizin/operationen.tex
+
+LaTeX Warning: Citation `mehlitz1998virtual' on page 21 undefined on input line 6.
+
+[21
 
 
 ]) (./kapitel/medizin/ÄuP.tex
@@ -1857,7 +1861,7 @@ Package rerunfilecheck Info: File `Bachelorarbeit_LaTeX_Template.out' has not ch
 Here is how much of TeX's memory you used:
  37577 strings out of 475071
  704662 string characters out of 5782907
- 1428012 words of memory out of 5000000
+ 1428011 words of memory out of 5000000
  58050 multiletter control sequences out of 15000+600000
  566360 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1875,7 +1879,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpssbn8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpssmn8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpssmn8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpssmne.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on Bachelorarbeit_LaTeX_Template.pdf (39 pages, 956487 bytes).
+Output written on Bachelorarbeit_LaTeX_Template.pdf (39 pages, 956858 bytes).
 PDF statistics:
  536 PDF objects out of 1000 (max. 8388607)
  462 compressed objects within 5 object streams
