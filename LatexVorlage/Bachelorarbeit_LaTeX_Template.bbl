@@ -52,6 +52,12 @@ Jacqueline Kohl.
   training: A comparison between virtual reality and live action modalities.
 \newblock 2023.
 
+\bibitem[LLG{\etalchar{+}}17]{laver2017virtual}
+Kate~E Laver, Belinda Lange, Stacey George, Judith~E Deutsch, Gustavo Saposnik,
+  and Maria Crotty.
+\newblock Virtual reality for stroke rehabilitation.
+\newblock {\em Cochrane database of systematic reviews}, (11), 2017.
+
 \bibitem[LLH{\etalchar{+}}16]{langley2016establishing}
 A~Langley, G~Lawson, S~Hermawati, M~D'cruz, J~Apold, F~Arlt, and K~Mura.
 \newblock Establishing the usability of a virtual training system for assembly
@@ -80,5 +86,10 @@ Evelyn Miralles.
 Jeffrey Osterlund and Brad Lawrence.
 \newblock Virtual reality: Avatars in human spaceflight training.
 \newblock {\em Acta Astronautica}, 71:139--150, 2012.
+
+\bibitem[Sve04]{sveistrup2004motor}
+Heidi Sveistrup.
+\newblock Motor rehabilitation using virtual reality.
+\newblock {\em Journal of neuroengineering and rehabilitation}, 1:1--8, 2004.
 
 \end{thebibliography}

@@ -6,46 +6,47 @@ Database file #1: references.bib
 Warning--I didn't find a database entry for "mehlitz1998virtual"
 Warning--empty journal in garcia2020training
 Warning--empty journal in kohl2023empathy
+Warning--there's a number but no volume in laver2017virtual
 Warning--empty journal in miralles2013onboard
-You've used 13 entries,
+You've used 15 entries,
             2543 wiz_defined-function locations,
-            642 strings with 7265 characters,
-and the built_in function-call counts, 5491 in all, are:
-= -- 544
-> -- 302
-< -- 5
-+ -- 107
-- -- 106
-* -- 414
-:= -- 943
-add.period$ -- 39
-call.type$ -- 13
-change.case$ -- 91
-chr.to.int$ -- 13
-cite$ -- 16
-duplicate$ -- 201
-empty$ -- 354
-format.name$ -- 119
-if$ -- 1084
+            654 strings with 7629 characters,
+and the built_in function-call counts, 6271 in all, are:
+= -- 619
+> -- 350
+< -- 6
++ -- 124
+- -- 123
+* -- 477
+:= -- 1083
+add.period$ -- 45
+call.type$ -- 15
+change.case$ -- 106
+chr.to.int$ -- 15
+cite$ -- 19
+duplicate$ -- 229
+empty$ -- 400
+format.name$ -- 138
+if$ -- 1232
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 69
-num.names$ -- 39
-pop$ -- 77
+missing$ -- 14
+newline$ -- 79
+num.names$ -- 45
+pop$ -- 88
 preamble$ -- 1
-purify$ -- 104
+purify$ -- 121
 quote$ -- 0
-skip$ -- 169
+skip$ -- 189
 stack$ -- 0
-substring$ -- 285
-swap$ -- 28
-text.length$ -- 5
-text.prefix$ -- 3
+substring$ -- 312
+swap$ -- 30
+text.length$ -- 6
+text.prefix$ -- 4
 top$ -- 0
-type$ -- 104
-warning$ -- 3
-while$ -- 53
-width$ -- 21
-write$ -- 166
-(There were 4 warnings)
+type$ -- 120
+warning$ -- 4
+while$ -- 60
+width$ -- 24
+write$ -- 192
+(There were 5 warnings)
